@@ -5,7 +5,7 @@ Continuous Integration (CI) is a development practice that requires developers t
 
 By integrating regularly, you can detect errors quickly, and locate them more easily.
 
-
+![flow-diagram](./ci.png);
 ## Practices
 
 - Maintain a single source repository
@@ -35,6 +35,7 @@ By integrating regularly, you can detect errors quickly, and locate them more ea
 - You can see whether the new code has passed the CI's tests on GitHub.
 - You can also configure your CI tool to alert teams of succesfull builds/tests.
 - Contiue to regularly integrate and test through
+
 
 ## Benefits
 
