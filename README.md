@@ -41,3 +41,16 @@ By integrating regularly, you can detect errors quickly, and locate them more ea
 #### Better communication
 - More visibility of code.
 - Better collaboration between developers.
+
+## Travis Setup
+
+1. Sign in to Travis with your GitHub account
+2. Wait for Travis to synchronise your repositories
+3. Add a `.travis.yml` file to the root directory of your repository.
+Contents should be like this:
+
+```yml
+language: node_js
+node_js:
+- '7'
+```
