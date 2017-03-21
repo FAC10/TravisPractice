@@ -5,25 +5,17 @@ Continuous Integration (CI) is a development practice that requires developers t
 
 By integrating regularly, you can detect errors quickly, and locate them more easily.
 
-![flow-diagram](./ci.png);
+![flow-diagram](./ci.png)
 ## Practices
 
 - Maintain a single source repository
-
 - Automate the build
-
 - Make your build self-testing
-
 - Every commit should build on an integration tool such as Travis
-
 - Keep the build fast
-
 - Test in a clone of the production environment. Your testing server should be configured in the same way as your production environment.
-
 - Make it easy for anyone to get the latest executable version
-
 - Everyone can see what’s happening
-
 - Automate deployment
 
 ## How you can do it
