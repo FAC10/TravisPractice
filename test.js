@@ -4,7 +4,7 @@ const router = require('./router.js');
 
 test('Initialise', t => {
   let num = 2;
-  t.equal(num, 2, 'Checking test environment working');
+  t.equal(num, 3, 'Checking test environment working');
   t.end();
 });
 
