@@ -54,3 +54,10 @@ language: node_js
 node_js:
 - '7'
 ```
+
+## Displaying badge
+
+Click on the badge on the Travis build page.
+Link to build status badge should look something like this: https://travis-ci.org/Samatar26/TravisPractice.svg?branch=master
+
+Then you can put this link in your readme which will auto-update and show team/users whether the build is passing or failing
